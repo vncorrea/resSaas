@@ -64,35 +64,44 @@ Esse projeto terá uma vertente mobile, para os clientes poderem realizar pedido
 1. **Clone o repositório**
    ```bash
    git clone https://github.com/vncorrea/resSaas.git
+   ```
    
 2. **Navegue até o diretório do projeto**
-```bash
-cd resSaas
+    ```bash
+    cd resSaas
+     ```
 
 3. **Instale as dependências do Laravel**
-```bash
-composer install
+    ```bash
+    composer install
+     ```
 
 4. **Configure o ambiente**
-```bash
-cp .env.example .env
+    ```bash
+    cp .env.example .env
+     ```
 
 5. **Gere a chave de aplicação do Laravel**
-```bash
-php artisan key:generate
+    ```bash
+    php artisan key:generate
+     ```
 
 6. **Execute as migrações do banco de dados**
-```bash
-php artisan migrate
+    ```bash
+    php artisan migrate
+     ```
 
 7. **Inicie o servidor de desenvolvimento**
-```bash
-php artisan serve
+    ```bash
+    php artisan serve
+     ```
 
 8. **Instale as dependências do frontend**
-```bash
-npm install
+    ```bash
+    npm install
+     ```
 
 9. **Inicie o servidor de desenvolvimento do frontend**
-```bash
-npm run dev
+    ```bash
+    npm run dev
+     ```
