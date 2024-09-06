@@ -8,7 +8,7 @@ O Gerenciador de Restaurantes é uma aplicação dividida em duas partes: uma pa
 ### Parte Web (Administração)
 
 1. **Autenticação e autorização**
-   - Login com diferentes níveis de permissão (gerente, garçom, cozinheiro).
+   - Login com diferentes níveis de permissão (admin, operacional).
 
 2. **Gerenciamento de mesas**
    - Atribuir mesas aos garçons.
@@ -21,12 +21,10 @@ O Gerenciador de Restaurantes é uma aplicação dividida em duas partes: uma pa
 
 4. **Gerenciamento da cozinha**
    - Visualizar pedidos pendentes e em preparo.
-   - Alterar o status de itens nos pedidos.
    - Notificar garçons e clientes quando o pedido estiver pronto.
 
 5. **Gerenciamento de entregas (delivery)**
    - Registrar e acompanhar pedidos de entrega.
-   - Atribuir entregadores e monitorar status das entregas.
 
 6. **Controle de estoque**
    - Gerenciar e monitorar o estoque de ingredientes e produtos.
@@ -35,6 +33,7 @@ O Gerenciador de Restaurantes é uma aplicação dividida em duas partes: uma pa
 7. **Cadastro de produtos e cardápio**
    - Adicionar, editar e remover itens do cardápio.
    - Definir preços, categorias e disponibilidade dos produtos.
+   - Geração automática de preço dos pedidos do cardápio baseado nos ingredientes e dificuldade de preparo.
 
 8. **Relatórios gerenciais**
    - Visualizar relatórios sobre vendas, pedidos, consumo de estoque e produtividade dos funcionários.
